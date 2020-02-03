@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1380px;
+    margin: 0 auto;
+}
+
+nav {
+    padding: 1rem 0;
+}
+
+.nav-c {
+    display: flex;
+    justify-content: flex-end;
+}
+ul.menu {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    list-style: none;
+}
+ul.menu li {
+    margin-right: 1rem;
+}
+ul.menu li a {
+    text-decoration: none;
+    color: #333;
+}
+
+section {
+    height: 580px;
+    display: flex;
+}
+.content {
+    margin-top: 6rem;
+    text-align: center;
+}
+.search_area {
+    padding-top: 1rem;
+    width: 600px;
+    margin: 0 auto;
+}
+.search_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: .5rem 1rem;
+    border-radius: 40px;
+}
+.search_bar:hover {
+    box-shadow: -2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+.search_bar i {
+    color: #ccc;
+}
+.search_bar input[type="text"] {
+    width: 500px;
+    padding: .5rem 0;
+    border: none;
+    outline: none;
+}
+
+.search_btn_area {
+    margin-top: 2rem;
+}
+.search_btn_area a {
+    background: rgb(228, 228, 228);
+    color: rgb(92, 92, 92);
+    padding: .5rem 1rem;
+    text-decoration: none;
+    border-radius: 3px;
+}
+.search_btn_area a:hover {
+    color: #333;
+    border: 1px solid #ccc;
+}
+.search_area p {
+    margin-top: 2rem;
+    font-size: 14px;
+}
+.search_area p a {
+    text-decoration: none;
+}
+
+.footer-top, .footer-bottom {
+    border-top: 1px solid #ccc;
+    background: #ddd;
+    color: #333;
+    height: 40px;
+}
+.ft-f {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 40px;
+}
+
+.ft-b-f {
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+}
+.ft-l ul, .ft-r ul {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    list-style: none;
+}
+.ft-l ul li, .ft-r ul li {
+    margin-right: 1rem;
+}
+.ft-l ul li a, .ft-r ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+.ft-l ul li a:hover, .ft-r ul li a:hover {
+    text-decoration: underline;
+}
